@@ -11,6 +11,8 @@ var gameEnd;
 var playState =
 {
     create: function() {
+        //reset score
+        score = 0;
         //add displays for the current score and time remaining in the game
         scoreText = game.add.text(16, 16, 'Score: 0', {fontSize: '32px', fill: '#FFF'});
         timeText = game.add.text(16, 50, 'Time: 01:00', {fontSize: '32px', fill: '#FFF'});

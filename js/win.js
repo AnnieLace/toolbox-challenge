@@ -4,7 +4,7 @@ var winState = {
         //show the user's final score and instructions for what to do next
         var winLabel = game.add.text(80, 80, 'TIME\x27S UP!', {fontSize: '50px', fill: '#FFF'});
         var scoreLabel = game.add.text(80, 150, 'Your Score: ' + score, {fontSize: '40px', fill: '#FFF'});
-        var restartLabel = game.add.text(80, game.world.height - 80, 'Press space bar to restart', {fontSize: '25px', fill: '#FFF'});
+        var restartLabel = game.add.text(80, game.world.height - 80, 'press space bar to restart', {fontSize: '25px', fill: '#FFF'});
 
         //add space bar so it can detect when it is pressed
         var spaceKey = this.game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
